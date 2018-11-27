@@ -42,8 +42,9 @@
         </ul>
 
         <div class="user-navigation search">
+          <a href="#" class="user-navigation search">Поиск</a>
           <form action="https://echo.htmlacademy.ru" method="get">
-            <input type="search" name="search" id="search">
+            <input type="search" name="search" id="search" placeholder="Что ищем?">
             <label for="search">Поиск</label>
           </form>
         </div>
@@ -166,26 +167,25 @@
 
     <section class="modal feedback-form">
       <h2 class="visually-hidden">Форма обратной связи</h2>
-      <p>Мы обязательно вам ответим!</p>
+      <p class="feedback-form-pledge">Мы обязательно вам ответим!</p>
       <form action="https://echo.htmlacademy.ru" method="post">
         <p>
-          <label class="visually-hidden">Имя
+          <label for="feedback-name" r class="visually-hidden">Имя</label>
             <input class="feedback-form-name" type="text" name="feedback-name"
-                   placeholder="Как вас зовут?">
-          </label>
+                   placeholder="Как вас зовут?" id="feedback-name">
+
         </p>
         <p>
-          <label class="visually-hidden">Электронная почта
+          <label for="feedback-email" class="visually-hidden">Электронная почта</label>
             <input class="feedback-form-email" type="email" name="feedback-email"
-                   placeholder="Ваша почта для ответа?">
-          </label>
+                   placeholder="Ваша почта для ответа?" id="feedback-email">
+
         </p>
         <p>
-          <label class="visually-hidden">Текст сообщения
+          <label for="feedback-message" class="visually-hidden">Текст сообщения</label>
             <textarea class="feedback-form-message"  name="feedback-message"
-                      placeholder="Напишите что-нибудь...">
+                      placeholder="Напишите что-нибудь..." id="feedback-message">
             </textarea>
-          </label>
         </p>
         <button type="submit">Отправить</button>
       </form>
