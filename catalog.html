@@ -23,9 +23,59 @@
           <a href="#">О Компании</a>
         </li>
       </ul>
-      <a href="#" class="user-navigation search">Поиск</a>
-      <a href="#" class="user-navigation entry">Вход</a>
-      <a href="#" class="user-navigation cart activity-cart">2 товара</a>
+
+      <div class="user-navigation search">
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <input type="search" name="search" id="search">
+          <label for="search">Поиск</label>
+        </form>
+      </div>
+
+      <section class="user-navigation login">
+        <h2 class="visually-hidden">Вход в личный кабинет</h2>
+        <a href="#" class="entry"
+           aria-label="Вход в личный кабинет на отдельной странице">Вход</a>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label class="visually-hidden">Электронная почта
+              <input type="email" name="e-mail" placeholder="Электронная почта">
+            </label>
+          </p>
+          <p>
+            <label class="visually-hidden">Пароль
+              <input type="password" name="password" placeholder="Пароль">
+            </label>
+          </p>
+          <button class="button" type="submit">Войти</button>
+          <p>
+            <a class="restore" href="#">Забыли пароль?</a>
+            <a class="new-registration" href="#">Новая регистрация</a>
+          </p>
+        </form>
+      </section>
+
+      <section class="user-navigation cart activity-cart">
+        <h2 class="visually-hidden">Корзина</h2>
+        <a href="#" class="activity"
+         aria-label="Переход к корзине на отдельной странице">2 товара</a>
+        <div class="cart-item">
+          <button class="cart-item-del" type="button">Удалить из корзины</button>
+          <img src="img/photo-ice-cream-1.jpg" width="33" height="33">
+          <p>Пломбир с апельсиновым джемом</p>
+          <p>1,5 кг x <span class="cart-price">200 руб.</span></p>
+          <p>300 руб.</p>
+        </div>
+        <div class="cart-item">
+          <button class="cart-item-del" type="button">Удалить из корзины</button>
+          <img src="img/photo-ice-cream-3.jpg" width="33" height="33">
+          <p>Клубничный пломбир с присыпкой из белого шоколада</p>
+          <p>1,5 кг x <span class="cart-price">300 руб.</span></p>
+          <p>450 руб.</p>
+        </div>
+        <p class="cart-bill">Итого: 750 руб.</p>
+        <button class="button" type="button">Оформить заказ</button>
+      </section>
+
     </nav>
   </header>
   <main class="container">
@@ -58,7 +108,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-1.jpg">
+              <img src="img/photo-ice-cream-1.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">310 Р<span>/кг</span></b>
           </p>
@@ -72,7 +122,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-2.jpg">
+              <img src="img/photo-ice-cream-2.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">380 Р<span>/кг</span></b>
           </p>
@@ -86,7 +136,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-3.jpg">
+              <img src="img/photo-ice-cream-3.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">355 Р<span>/кг</span></b>
           </p>
@@ -100,7 +150,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-4.jpg">
+              <img src="img/photo-ice-cream-4.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">415 Р<span>/кг</span></b>
           </p>
@@ -114,7 +164,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-5.jpg">
+              <img src="img/photo-ice-cream-5.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">325 Р<span>/кг</span></b>
           </p>
@@ -128,7 +178,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-6.jpg">
+              <img src="img/photo-ice-cream-6.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">410 Р<span>/кг</span></b>
           </p>
@@ -142,7 +192,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-7.jpg">
+              <img src="img/photo-ice-cream-7.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">375 Р<span>/кг</span></b>
           </p>
@@ -156,7 +206,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-8.jpg">
+              <img src="img/photo-ice-cream-8.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">320 Р<span>/кг</span></b>
           </p>
@@ -170,7 +220,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-9.jpg">
+              <img src="img/photo-ice-cream-9.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">440 Р<span>/кг</span></b>
           </p>
@@ -184,7 +234,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-10.jpg">
+              <img src="img/photo-ice-cream-10.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">435 Р<span>/кг</span></b>
           </p>
@@ -198,7 +248,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-11.jpg">
+              <img src="img/photo-ice-cream-11.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">355 Р<span>/кг</span></b>
           </p>
@@ -212,7 +262,7 @@
           </h3>
           <p>
             <a href="#">
-              <img src="img/photo-ice-cream-12.jpg">
+              <img src="img/photo-ice-cream-12.jpg" width="267" height="267">
             </a>
             <b class="catalog-item-price">420 Р<span>/кг</span></b>
           </p>
