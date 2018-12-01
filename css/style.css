@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.main-navigation {
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+.site-navigation,
+.user-navigation,
+.site-navigation-inner {
+  list-style: none;
+}
+.user-navigation a {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.site-navigation-inner a {
+  background-color: #f7f6f3;
+  color: #000000;
+  font-weight: 400;
+  text-decoration:none;
+}
+
+.site-navigation-current {
+  background-color: #d07058;
+  display: inline;
+}
+.activity {
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #f7f6f3;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #f7f6f3;
+  color: #000000;
+  text-decoration:none;
+}
+
+.site-navigation-inner a:hover,
+.site-navigation-inner a:focus {
+  background-color: #fbded7;
+}
+.site-navigation-inner a:active {
+  background-color: #f6b5a5;
+}
+.catalog-new-items a {
+  font-weight: 700;
+}
+
+.site-navigation-inner {
+  display: none;
+}
+
+.search form {
+  display: none;
+}
+
+.login form {
+  display: none;
+}
+
+.search a,
+.login a,
+.cart {
+  color: #ffffff;
+  text-decoration:none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.search a:hover,
+.search a:focus,
+.login a:hover,
+.login a:focus,
+.cart:hover,
+.cart:focus {
+  color: #000000;
+  background-color: #f8f7f4;
+}
+
+.breadcrumbs li {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  list-style: none;
+}
+.breadcrumbs a {
+  color: #ffffff;
+  font: inherit;
+  text-decoration: underline;
+}
+.breadcrumbs a:hover,
+.breadcrumbs a:focus,
+.breadcrumbs a:active {
+  color: #ffbc9e;
+}
+.opening-hours {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+}
+.opening-hours span {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+
+.store-description {
+  color: #000000;
+
+  background-color: #f2e8d2;
+  background-image: url("../img/pattern-vafer.png");
+  background-position: top center;
+  background-repeat: repeat;
+
+
+}
+.store-description ul {
+  font-weight: 400;
+  list-style: none;
+}
+.blog-article {
+  color: #000000;
+
+  background-color: #ffffff;
+  background-image: url("../img/fon-strawberry.jpg");
+  background-repeat: no-repeat;
+}
+.blog-article a {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+
+  color: #000000;
+  text-decoration: underline;
+}
+.blog-article a:hover,
+.blog-article a:focus,
+.blog-article a:active {
+color: #e84d37;
+
+}
+
+.subscription {
+  font-weight: 400;
+  color: #000000;
+
+  background-color: #f8f7f4;
+}
+
+.catalog-list {
+  list-style: none;
+}
+.catalog-item h3 a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+.catalog-item h3 a:hover,
+.catalog-item h3 a:focus,
+.catalog-item h3 a:active {
+  color: #ffbc9e;
+}
+
+.catalog-item b {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+.catalog-item b span{
+  font-size: 22px;
+}
+
+.button {
+
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #f06341;
+  border:none;
+  text-decoration: none;
+}
+input {
+  border: 1px solid #d3d3d2;
+  border-radius: 3px;
+}
+input:hover {
+  border: 2px solid #c7c6c5;
+}
+input:focus {
+  border: 2px solid #8fbdec;
+}
+
+.main-footer {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #849d8f;
+
+}
+.footer-social ul {
+  list-style: none;
+}
+.social-button {
+  color: #ffffff;
+}
+
+.footer-documents a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.heart {
+  font-weight: 700
+}
+
+.footer-copyright a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.main-footer a:hover,
+.main-footer a:focus,
+.main-footer a:active {
+  color: #ffbc9e;
+}
+
+.activity-cart {
+  display: none;
+}
+
+.feedback-form {
+  display: none;
+}
+
+
+
+
+
