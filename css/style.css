@@ -19,6 +19,21 @@ h1 {
   line-height: 41px;
   font-weight: 700;
 }
+.container {
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+.container-nopad {
+  width: 1146px;
+  margin: 0 auto;
+}
+.main-header {
+
+  /* Временно для сетки */
+  min-height: 74px;
+  outline: 1px solid red;
+}
 
 .visually-hidden {
   position: absolute;
@@ -33,14 +48,37 @@ h1 {
   font-weight: 700;
   color: #ffffff;
 
+  display: flex;
+
   background-color: #849d8f;
+}
+.main-navigation .container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-navigation-logo {
+  width: 154px;
+  height: 64px;
+padding-top: 10px;
 }
 
 .site-navigation,
 .user-navigation,
 .site-navigation-inner {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
+.site-navigation {
+  width: 405px;
+}
+.user-navigation-all {
+  width: 250px;
+  margin-left: auto;
+}
+
 .user-navigation a {
   font-size: 14px;
   line-height: 16px;
@@ -118,6 +156,17 @@ h1 {
   color: #000000;
   background-color: #f8f7f4;
 }
+.top-info {
+  display: flex;
+  justify-content: space-between;
+}
+.breadcrumbs {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  width: 250px;
+
+}
 
 .breadcrumbs li {
   color: #ffffff;
@@ -137,9 +186,13 @@ h1 {
   color: #ffbc9e;
 }
 .opening-hours {
+  text-align: right;
+  width: 170px;
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
+  margin-left: auto;
+
 }
 .opening-hours span {
   font-size: 22px;
@@ -155,14 +208,26 @@ h1 {
   background-position: top center;
   background-repeat: repeat;
 
-
+  margin-bottom: 40px;
 }
 .store-description ul {
   font-weight: 400;
   list-style: none;
+
+  /*временно для сеток*/
+  min-height: 305px;
 }
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
 .blog-article {
   color: #323232;
+
+  width: 560px;
 
   background-color: #ffffff;
   background-image: url("../img/fon-strawberry.jpg");
@@ -187,11 +252,24 @@ color: #e84d37;
   font-weight: 400;
   color: #5a5a5a;
 
+  width: 560px;
   background-color: #f8f7f4;
 }
 
 .catalog-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.catalog-item {
+  width: 267px;
+  margin-right: 26px;
+  margin-bottom: 30px;
+}
+.catalog-item:nth-child(4n) {
+  margin-right: 0;
 }
 .catalog-item h3 a {
   color: #ffffff;
@@ -243,15 +321,37 @@ input:focus {
   line-height: 18px;
   font-weight: 400;
   background-color: #849d8f;
+  border-top: 1px solid #a9bbb1;
+  margin-top: 40px;
+
+
 
 }
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 20px;
+  padding-bottom: 25px;
+
+  padding-left: 0;
+  padding-right: 0;
+}
+.footer-social  {
+width: 190px;
+  margin-right: 210px;
+}
 .footer-social ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 .social-button {
   color: #ffffff;
 }
-
+.footer-documents {
+  width: 330px;
+}
 .footer-documents a {
   color: #ffffff;
   text-decoration: underline;
@@ -259,7 +359,10 @@ input:focus {
 .heart {
   font-weight: 700
 }
-
+.footer-copyright {
+  width: 195px;
+  margin-left: auto;
+}
 .footer-copyright a {
   color: #ffffff;
   text-decoration: underline;
