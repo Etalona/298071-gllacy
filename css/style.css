@@ -162,7 +162,7 @@ h1 {
   list-style: none;
 }
 .blog-article {
-  color: #000000;
+  color: #323232;
 
   background-color: #ffffff;
   background-image: url("../img/fon-strawberry.jpg");
@@ -173,7 +173,7 @@ h1 {
   line-height: 30px;
   font-weight: 700;
 
-  color: #000000;
+  color: #323232;
   text-decoration: underline;
 }
 .blog-article a:hover,
@@ -185,7 +185,7 @@ color: #e84d37;
 
 .subscription {
   font-weight: 400;
-  color: #000000;
+  color: #5a5a5a;
 
   background-color: #f8f7f4;
 }
@@ -193,7 +193,7 @@ color: #e84d37;
 .catalog-list {
   list-style: none;
 }
-.catalog-item h3 a{
+.catalog-item h3 a {
   color: #ffffff;
   text-decoration: underline;
 }
@@ -203,12 +203,12 @@ color: #e84d37;
   color: #ffbc9e;
 }
 
-.catalog-item b {
+.catalog-item-price {
   font-size: 45px;
   line-height: 45px;
   font-weight: 700;
 }
-.catalog-item b span{
+.catalog-item-price span {
   font-size: 22px;
 }
 
