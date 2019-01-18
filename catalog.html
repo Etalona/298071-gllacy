@@ -73,8 +73,6 @@
             </form>
           </div>
         </section>
-
-
         <section class="user-navigation">
           <a href="#" class="activity"
                                             aria-label="Переход к корзине на отдельной странице">
@@ -140,7 +138,6 @@
       </p>
     </div>
     <h1>Сливочное мороженое</h1>
-
     <div class="sort-container">
       <form class="sort-form" action="https://echo.htmlacademy.ru" method="get">
         <div class="form-sort-select">
@@ -151,7 +148,16 @@
           </select>
         </div>
         <div class="sort-form-price">
-          <span class="sort-headline">Цена: 100 руб. - 500 руб.</span>
+          <fieldset class="sort-price">
+            <legend class="sort-headline">Цена: 100 руб. - 500 руб.</legend>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </div>
+          </fieldset>
         </div>
         <fieldset class="sort-form-fat">
           <legend class="sort-headline">Жирность:</legend>
@@ -202,9 +208,6 @@
         <button class="button-sort" type="submit">Применить</button>
       </form>
     </div>
-
-    <!-- Тут будет фильтр товаров -->
-
     <section class="catalog">
       <ul class="catalog-list">
         <li class="catalog-item">
@@ -224,7 +227,6 @@
             </p>
           </div>
         </li>
-
         <li class="catalog-item">
           <h3>
             <a href="#">Сливочно-кофейное с кусочками шоколада</a>
@@ -305,7 +307,6 @@
             </p>
           </div>
         </li>
-
         <li class="catalog-item">
           <h3>
             <a href="#">Сливочно-лимонное с карамельной присыпкой</a>
@@ -385,7 +386,6 @@
               <a class="button" href="#">Быстрый просмотр</a>
             </p>
           </div>
-
         </li>
         <li class="catalog-item">
           <h3>
@@ -404,7 +404,6 @@
           </div>
         </li>
       </ul>
-      <!-- Тут будет пагинатор -->
       <ul class="pagination-list">
         <li class="pagination-item pagination-item-current first-pagination"><a>1</a></li>
         <li class="pagination-item"><a href="#">2</a></li>
